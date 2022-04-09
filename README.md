@@ -96,7 +96,8 @@ mv distilBERTSeqClassification.mar model_store/
 torchserve --start --model-store model_store --models sentiments=distilBERTSeqClassification.mar --ncs
 ``` 
 If everything goes well, you should see a message like below in the terminal log
-<span style="color:blue">Transformer model from path <your path> loaded successfully</span>
+
+> ***Transformer model from path c:\..\.. loaded successfully***
 
 This confirms that you are now serving pretrained Huggingface sentiment analysis model as a REST API
 
