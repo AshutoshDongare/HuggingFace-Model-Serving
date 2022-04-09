@@ -4,7 +4,7 @@
 # HuggingFace-Model-Serving
 Quick and easy tutorial to serve HuggingFace sentiment analysis model using torchserve
 
-Full explaination of all possible configurations to serve any type of model are explained on [TorchServe Github](https://github.com/pytorch/serve)  
+Full explaination of all possible configurations to serve any type of model are explained on [Torchserve Github](https://github.com/pytorch/serve)  
 
 However This tutorial can help you to get started quickly on searving your models to production.
 we will be using a pretrained huggingface model ``` distilbert-base-uncased-finetuned-sst-2-english ``` for serving.
