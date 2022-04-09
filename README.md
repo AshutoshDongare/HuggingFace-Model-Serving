@@ -80,7 +80,7 @@ python Download_Transformer_models.py
 ```
 This will create a new folder ```Transformer_model``` under current directory & download transformer model mentioned in setup_config.json and  and all required artifacts
 
-- Step 6 - Let's create Model Archieve (.mar) using following command. Please ensure that you have all the files at correct places. If you have followed the steps correctly then these files should be in correct places. 
+- Step 6 - Let's create Model Archive (.mar) using following command. Please ensure that you have all the files at correct places. If you have followed the steps correctly then these files should be in correct places. 
 ```
 torch-model-archiver --model-name distilBERTSeqClassification --version 1.0 --serialized-file Transformer_model/pytorch_model.bin --handler ./Transformer_handler_generalized.py --extra-files "Transformer_model/config.json,./setup_config.json,./index_to_name.json"
 ```
