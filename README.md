@@ -34,8 +34,8 @@ pip install transformers
 We will first download the transformer model locally, then archive it to model archive file (.mar) and serve it using Torch Serve
 
 - Step 1 - Lets create and change directory to a local folder named "sentiment_deployment".   
- 
--Step 2  - Clone or download and extract serve repo to your machine from [Torch Serve repo](https://github.com/pytorch/serve). we  will require a couple of files from this repo. this will give you "serve-master" directory with all the artifacts. 
+
+- Step 2 - Clone or download and extract serve repo to your machine from [Torch Serve repo](https://github.com/pytorch/serve). we  will require a couple of files from this repo. this will give you "serve-master" directory with all the artifacts. 
 
 <span style="color:red">If you do not want to download all the files/repo from torch serve, you can download my repo that has only required files. In that case you can skip the steps 3,4 & 5 and directly continue with step 6</span> 
 
